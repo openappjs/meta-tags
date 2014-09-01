@@ -1,0 +1,29 @@
+{
+  "name": "meta-tags",
+  "version": "0.1.0",
+  "description": "set meta tags",
+  "main": "index.js",
+  "scripts": {
+    "example": "beefy -p 5000 example/app.js"
+  },
+  "browserify": {
+    "transform": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openappjs/meta-tags.git"
+  },
+  "author": "openappjs",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/openappjs/meta-tags/issues"
+  },
+  "homepage": "https://github.com/openappjs/meta-tags",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "mercury": "^6.0.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1"
+  }
+}
