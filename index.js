@@ -6,13 +6,6 @@ function Tag (options) {
   var config = options.config || {};
   var model = options.model || {};
 
-  if (options.config.responsive) {
-    var viewport = {};
-    viewport.Name = 'viewport';
-    viewport.content = 'width=device-width, initial-scale=1';
-    model = viewport;
-  }
-
   var state = mercury.struct({
     config: mercury.struct(config),
     model: mercury.struct(model)
